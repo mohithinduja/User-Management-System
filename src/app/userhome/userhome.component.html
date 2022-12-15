@@ -1,0 +1,115 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <img style="margin-left:30px;"src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0rbFTl0dcyGTxv8zv6fuyjBKKLk0ripTsow&usqp=CAU" alt="Girl in a jacket" width="65" height="65">
+    <button  class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <i style='font-size:24px; color:white;margin-left:1540px;' class='fas'>&#xf406;</i>
+        <button style="color:white;margin-left:1500px;" type="button" class="btn btn-link" (click)="onclick()"  >{{currentuser}}</button> 
+        <ng-container *ngIf="visible">
+          <p style="color:white; margin-left:1370px;">Last Updated On: {{lastlogin}} </p>
+          </ng-container>
+      </li>&nbsp;
+      <li class="nav-item"><br>
+        <button  type="button" class="btn btn-link" (click)="goToLogin()">LogOut</button>
+       
+      </li>
+      
+    </ul>
+  </div>
+</nav>
+<head>
+
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    </head>
+    
+
+
+   
+    <section class="vh-100 gradient-custom" style=" background-image: url(https://t3.ftcdn.net/jpg/03/99/24/82/360_F_399248286_Ogm0T8CFeauN4Hdn42FqWfsCE02dJBbX.jpg);background-size: cover;">
+    
+      <br><br><br><br>
+
+    <div class="container"><br><br><br><br><br>
+
+   
+  
+      
+      <button style="margin-left :600px;" type="button" class="btn btn-success" (click)="userProfile()" >View Profile</button><br><br><br><br><br>
+
+<button style="margin-left :600px;" type="button" class="btn btn-primary"(click)="viewUser()">View User List</button> 
+    </div>
+            </section>
+  <footer class="bg-light text-center text-white" >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #3b5998;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+ 
+        <!-- Twitter -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #55acee;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+ 
+        <!-- Google -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #dd4b39;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+ 
+        <!-- Instagram -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #ac2bac;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+ 
+        <!-- Linkedin -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #0082ca;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn text-white btn-floating m-1"
+          style="background-color: #333333;"
+          href="#!"
+          role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+ 
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="https://usermanagementsystem@gmail.com/">usermanagementsystem@gmail</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+
