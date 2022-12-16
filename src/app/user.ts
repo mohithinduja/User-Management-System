@@ -9,7 +9,7 @@ export class User {
     mobileNo!:number;
     userType!:string;
     lastLogin !:string;
-    login !:string;
+    login!:object;
     constructor(){
 
     }
